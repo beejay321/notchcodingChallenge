@@ -1,0 +1,42 @@
+.articleInput {
+  border: 0.2px solid rgb(245, 245, 245);
+  border-radius: 50px;
+  padding: 10px;
+  margin: 12px 0px;
+}
+
+Button {
+  border: none;
+}
+
+.createBtnDiv {
+  display: flex;
+  justify-content: flex-end;
+}
+.sectionTitle {
+  margin: 24px 0px;
+  font-weight: bold;
+}
+
+.eachArticle {
+  box-shadow: 5px 5px 5px 0px rgb(203, 203, 203);
+  margin: 12px 0px;
+  padding: 5px;
+}
+.articleHeading {
+  display: flex;
+  justify-content: space-between;
+}
+
+.postTitle {
+  font-size: 24px;
+  font-weight: bold;
+}
+.date {
+  margin: 3px 0px;
+  padding: 5px;
+}
+
+.article {
+  height: 75px;
+}
