@@ -20,11 +20,8 @@ function App() {
   const handleSubmit = async () => {
     const response = await fetch(`${BACKEND_URL}/posts`, {
       method: "POST",
-
       body: JSON.stringify(text),
-    });
-    console.log(text);
-    console.log(response);
+    });   
   };
 
   const handleDateConvert = (date) => {
