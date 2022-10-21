@@ -5,7 +5,6 @@ const addToPost = async (req, res, next) => {
     const { name, description } = req.body;
     const newPost = new PostModel(name, description);
     await newPost.save();
-
     res.status(201).send({ newProduct });
   } catch (error) {
     next(error);
@@ -16,8 +15,6 @@ const createNewPost = async (req, res, next) => {
   try {
     const newPost = new PostModel(req.body);
     await newPost.save();
-    console.log(newPost);
-
     res.status(201).send({ newPost });
   } catch (error) {
     next(error);
